@@ -2,406 +2,111 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>ORBHEX</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORBHEX</title>
 
-   <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
 
-   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="style.css">
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
 
 </head>
 
 <body>
 
-   <!-- header section starts  -->
+    <!-- header section starts  -->
 
-   <header class="header">
+    <header class="header">
 
-      <img src="./images/Black logo.png" class="logo" alt="">
-      <nav class="navbar">
-         <a href="#home">home</a>
-         <a href="#about">about</a>
-         <a href="#services">services</a>
-         <a href="#contact">contact</a>
-      </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
 
-      <div class="icons">
-         <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="info-btn" class="fas fa-info-circle"></div>
-         <div id="search-btn" class="fas fa-search"></div>
-         <div id="login-btn" class="fas fa-user"></div>
-      </div>
+        <img src="./images/Black logo.png" data-aos="zoom-in-left" data-aos-delay="150" href="#" class="logo">
 
-      <form action="" class="search-form">
-         <input type="search" name="" placeholder="search here..." id="search-box">
-         <label for="search-box" class="fas fa-search"></label>
-      </form>
-
-      <form action="" class="login-form">
-         <h3>login form</h3>
-         <input type="email" placeholder="enter your email" class="box">
-         <input type="password" placeholder="enter your password" class="box">
-         <div class="flex">
-            <input type="checkbox" name="" id="remember-me">
-            <label for="remember-me">remember me</label>
-            <a href="#">forgot password?</a>
-         </div>
-         <input type="submit" value="login now" class="btn">
-         <p>don't have an account <a href="#">create one!</a></p>
-      </form>
-
-   </header>
-
-   <div class="contact-info">
-
-      <div id="close-contact-info" class="fas fa-times"></div>
-
-      <div class="info">
-         <i class="fas fa-map-marker-alt"></i>
-         <h3>office address</h3>
-         <p>Office 1002 – 10th Floor, Al Rahim Trader Tower, Seari Quarters، I.I. Chundrigar، Karachi, Karachi City,
-            Sindh 74100</p>
-      </div>
+        <nav class="navbar">
+            <a data-aos="zoom-in-left" data-aos-delay="300" href="#home">home</a>
+            <a data-aos="zoom-in-left" data-aos-delay="450" href="#about">about</a>
+            <a data-aos="zoom-in-left" data-aos-delay="600" href="#service">services</a>
+            <a data-aos="zoom-in-left" data-aos-delay="750" href="#contact">contact</a>
+        </nav>
 
 
-      <div class="info">
-         <i class="fas fa-envelope"></i>
-         <h3>email</h3>
-         <a href="mailto:Info@orbhex.com">Info@orbhex.com</a>
-         <a href="mailto:Recruitment@orbhex.com">Recruitment@orbhex.com</a>
-         <a href="mailto:Hr@orbhex.com"> Hr@orbhex.com</a>
-      </div>
+    </header>
 
-      
-      <div class="share">
-         <a href="https://www.facebook.com/Orbhex" class="fab fa-facebook-f"></a>
-         <!-- <a href="#" class="fab fa-twitter"></a> -->
-         <a href="https://instagram.com/orbhexsol" class="fab fa-instagram"></a>
-         <a href="https://www.linkedin.com/company/orbhex/" class="fab fa-linkedin"></a>
-      </div>
+    <!-- header section ends -->
 
-   </div>
+    <!-- home section starts  -->
 
-   <!-- header section ends -->
+    <section class="home" id="home">
 
-   <!-- home section starts  -->
-
-   <section class="home" id="home">
-
-      <div class="swiper home-slider">
-
-         <div class="swiper-wrapper">
-
-            <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
-               <div class="content">
-                  <h3>we provide best service</h3>
-                  <p>In the service business, time is your number 1 commodity. It's what you sell - and what makes or
-                     loses you money. Every minute of inefficiency due to lost paperwork, chasing customers, workflow
-                     bottlenecks and juggling finances costs your bottom line.
-                  </p>
-                  <a href="#about" class="btn">get started</a>
-               </div>
-            </section>
-
-            <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
-               <div class="content">
-                  <h3>making dream come to life</h3>
-                  <p>When constructing any house, you have to start with the foundation. In the Sound Relationship
-                     House, the foundation is the relational friendship. A strong foundation creates a positive
-                     perspective and makes managing conflict easier.</p>
-                  <a href="#about" class="btn">get started</a>
-               </div>
-            </section>
-
-            <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
-               <div class="content">
-                  <h3>from concept to creation</h3>
-                  <p>Creating an event is a journey, mystical and magical as it is technically challenging. In the
-                     beginning, there is very little to work with; a vision, perhaps a few details to grasp, but not
-                     much more.
-
-                     From these whisps, coordinators and designers work hand-in-hand to piece together an extraordinary
-                     experience. Together they work out the details and logistics that will best evoke feelings in the
-                     attendees that align with our client’s goals.
-                  </p>
-                  <a href="#about" class="btn">get started</a>
-               </div>
-            </section>
-
-         </div>
-
-         <div class="swiper-button-next"></div>
-         <div class="swiper-button-prev"></div>
-
-      </div>
-
-   </section>
-
-   <!-- home section ends -->
-
-   <!-- about section starts  -->
-
-   <section class="about" id="about">
-
-      <h1 class="heading"> about us </h1>
-
-      <div class="row">
-
-         <div class="video">
-            <video src="images/about-vid.mp4" loop muted autoplay></video>
-         </div>
-
-         <div class="content">
-            <h3>We will provide you the best work which you dream for!</h3>
-            <p>Launched in 2018, Orbhex is working for United States, United Kingdom and Canada.<br>
-               We have been providing seamless services to all are clients since we started and it’s fun working with
-               them, our services includes Telemarketing, Customer Service, App Development and Web Development.
+        <div class="content">
+            <span data-aos="fade-up" data-aos-delay="150">follow us</span>
+            <h3 data-aos="fade-up" data-aos-delay="300">to the unknown</h3>
+            <p data-aos="fade-up" data-aos-delay="450">In the service business, time is your number 1 commodity. It's
+                what you sell - and what makes or
+                loses you money. Every minute of inefficiency due to lost paperwork, chasing customers, workflow
+                bottlenecks and juggling finances costs your bottom line.
             </p>
-            <!-- <a href="#services" class="btn">read more</a> -->
-         </div>
+            <a data-aos="fade-up" data-aos-delay="600" href="#" class="btn">Subscribe</a>
+        </div>
 
-      </div>
+    </section>
 
-      <div class="box-container">
+    <!-- home section ends -->
 
-         <div class="box">
-            <h3>20K</h3>
-            <p>HAPPY CUSTOMER</p>
-         </div>
+    <!-- booking form section starts  -->
 
-         <div class="box">
-            <h3>150+</h3>
-            <p>WORK FORCE</p>
-         </div>
+    <!-- booking form section ends -->
 
-         <div class="box">
-            <h3>53</h3>
-            <p>AWARDS</p>
-         </div>
+    <!-- about section starts  -->
 
-         <div class="box">
-            <h3>77</h3>
-            <p>PROJECT DONE</p>
-         </div>
+    <section class="about" id="about">
 
-      </div>
-
-   </section>
-
-   <!-- about section ends -->
-
-   <!-- services section starts  -->
-
-   <section class="services" id="services">
-
-      <h1 class="heading"> our services </h1>
-
-      <div class="box-container">
-
-         <div class="box">
-            <img src="images/service-1.png" alt="">
-            <h3>DevOps</h3>
-            <p>
-               The best DevOps engineers can earn over $150,000 per year working fully remotely. Showcase your skills to
-               potential employers with a Certificate of Completion.
-            </p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-2.png" alt="">
-            <h3>CUSTOMER SERVICES</h3>
-            <p>we are an experienced contact center with over 150 experienced employees that has been providing customer
-               services Since 2018.</p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-3.png" alt="">
-            <h3>Software Development</h3>
-            <p>We have variety of experienced people who can work on website design development, mobile friendly design
-               development, e-commerce design and development.</p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-4.png" alt="">
-            <h3>INBOUND AND OUTBOUND SALES</h3>
-            <p>
-               When it comes to telemarketing we have a vast experience of telemarketing services which includes Inbound
-               and Outbound Sales, Lead Generation, Appointment Setting services.
-            </p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-5.png" alt="">
-            <h3>SOFTWARE SOLUTION</h3>
-            <p>
-               Our uplifted, full-stack engineering competence results in matchless digital experiences. Proficiency and
-               extensive experience in agile software development
-            </p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-6.png" alt="">
-            <h3>SOCIAL MEDIA MARKETING</h3>
-            <p>We have an expert team who handles our clients social media marketing.</p>
-            <p>We cover all targeted social platforms to advertise your business.</p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-7.png" alt="">
-            <h3>System Administration</h3>
-            <p>The task is performed by a system administrator who monitors system health, monitors and allocates system
-               resources like disk space, performs backups.</p>
-         </div>
-
-         <div class="box">
-            <img src="images/service-8.png" alt="">
-            <h3>APP DEVELOPMENT</h3>
-            <p>
-               we have a skillful team who can work on all platforms as well as website apps also.
-            </p>
-         </div>
-
-      </div>
-
-   </section>
-
-   <!-- services section ends -->
-
-   <!-- projects section starts  -->
-
-   <!-- projects section ends -->
-
-   <!-- reviews section starts  -->
-
-   <!-- reviews section ends -->
-
-   <!-- pricing section starts  -->
-
-   <!-- pricing section ends -->
-
-   <!-- contact section starts  -->
-
-   <section class="contact" id="contact">
-
-      <h1 class="heading"> contact us </h1>
-
-      <div class="row">
-
-         <img style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
-            marginwidth="0"
-            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=10th%20Floor,%20Al%20Rahim%20Trader%20Tower,%20Seari%20Quarters%D8%8C%20I.I.%20Chundrigar%D8%8C%20Karachi,%20Karachi%20City+(orbhex)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-            <a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
-
-
-      </div>
-
-   </section>
-
-   <!-- contact section ends -->
-
-   <!-- blogs section starts  -->
-
-
-   <!-- blogs section ends -->
-
-   <!-- client logo section starts -->
-
-
-   <!-- client logo section ends -->
-
-   <!-- footer section starts  -->
-
-   <footer>
-      <div class="content">
-         <div class="top">
-            <div class="logo-details">
-               <i class="fab fa-slack"></i>
-               <span class="logo_name">Company</span>
+        <div class="video-container" data-aos="fade-right" data-aos-delay="300">
+            <video src="images/home-vid-1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="images/home-vid-1.mp4"></span>
+                <span class="control-btn" data-src="images/home-vid-2.mp4"></span>
+                <span class="control-btn" data-src="images/home-vid-3.mp4"></span>
             </div>
-            <div class="media-icons">
-               <a href="https://www.facebook.com/Orbhex" target="_blank"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/company/orbhex/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-               <a href="https://instagram.com/orbhexsol" target="_blank"><i class="fab fa-instagram"></i></a>
-            </div>
-         </div>
-         <div class="link-boxes">
-            <ul class="box">
-               <li class="link_name">Company</li>
-               <li><a href="#home">Home</a></li>
-               <li><a href="#about">About</a></li>
-               <li><a href="#contact">Contact</a></li>
-               <li><a href="#">Get started</a></li>
-            </ul>
-            <ul class="box">
-               <li class="link_name">Services</li>
-               <li><a href="#">App design</a></li>
-               <li><a href="#">Web design</a></li>
-               <li><a href="#">Logo design</a></li>
-               <li><a href="#">Banner design</a></li>
-            </ul>
-            <ul class="box">
-               <li class="link_name">Account</li>
-               <li><a href="#">Profile</a></li>
-               <li><a href="#">My account</a></li>
-               <li><a href="#">Prefrences</a></li>
-               <li><a href="#">Purchase</a></li>
-            </ul>
-            <ul class="box">
-               <li class="link_name">Get Help</li>
-               <li><a href="#">FAQ</a></li>
-               <li><a href="#">Shipping</a></li>
-               <li><a href="#">Returns</a></li>
-               <li><a href="#">Order Statuss</a></li>
-            </ul>
-            <ul class="box input-box">
-               <li class="link_name">Subscribe</li>
-               <li><input type="text" placeholder="Enter your email"></li>
-               <li><input type="button" value="Subscribe"></li>
-            </ul>
-         </div>
-      </div>
-      <div class="bottom-details">
-         <div class="bottom_text">
-            <span class="copyright_text">© 2019 Company. All rights reserved</span>
-            <span class="policy_terms">
-               <a href="#">Privacy policy</a>
-               <a href="#">Terms & condition</a>
-            </span>
-         </div>
-      </div>
-   </footer>
+        </div>
 
-   <!-- footer section ends -->
+        <div class="content" data-aos="fade-left" data-aos-delay="600">
+            <span>why choose us?</span>
+            <h3>We Will Provide You The Best Work</h3>
+            <p>Launched in 2018, Orbhex is working for United States, United Kingdom and Canada.
+                We have been providing seamless services to all are clients since we started and it’s fun working with them, our services includes Telemarketing, Customer Service, App Development and Web Development.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- destination section starts  -->
+
+    
+    <!-- footer section ends -->
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
-   <script
-      src="https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en&callback=onApiLoad"></script>
+    <script>
 
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
 
-
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
-
-   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-   <!-- custom js file link  -->
-   <script src="app.js"></script>
-
-   <script>
-
-      lightGallery(document.querySelector('.projects .box-container'));
-
-   </script>
+    </script>
 
 </body>
 
